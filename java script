@@ -1,0 +1,20 @@
+var health=100;
+checkhealth(health);
+health=health+1;
+health=health+3;
+health=health-5;
+health=health-99;
+checkhealth(health);
+
+
+
+
+fuction check health(healthtocheck)
+{	if(healthtocheck == 0)
+{alert("you have died must go to last check point");
+	
+
+}
+	
+
+}
