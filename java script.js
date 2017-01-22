@@ -9,15 +9,14 @@ checkhealth(health);
 
 
 
-fuction checkhealth(healthtocheck)
-{	if(healthtocheck == 0)
-{alert("you have died must go to last check point");
-	
-
+function checkhealth(healthtocheck)
+{
+	if(healthtocheck == 0)
+	{
+		alert("you have died must go to last check point");
+	}
 }
-	
 
-}
 var power=100
 checkpower(power);
 power=power+1;
@@ -27,10 +26,10 @@ power=power-99;
 checkpower(power);
 
 
-fuction checkpower(powertocheck)
-{    if (powertocheck== 0)
-{alert("you can not Do alot of damage go find more power");
-
-
-
+function checkpower(powertocheck)
+{
+	if (powertocheck== 0)
+	{
+		alert("you can not Do alot of damage go find more power");
+	}
 ]
