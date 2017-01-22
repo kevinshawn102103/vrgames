@@ -9,7 +9,7 @@ checkhealth(health);
 
 
 
-fuction check health(healthtocheck)
+fuction checkhealth(healthtocheck)
 {	if(healthtocheck == 0)
 {alert("you have died must go to last check point");
 	
@@ -27,7 +27,7 @@ power=power-99;
 checkpower(power);
 
 
-fuction check power(powertocheck)
+fuction checkpower(powertocheck)
 {    if (powertocheck== 0)
 {alert("you can not Do alot of damage go find more power");
 
